@@ -1,10 +1,10 @@
 <?php
 require_once('../config/connect_db.php');
 // === Koneksi MySQL ===
-$mysqli = new mysqli("localhost", "root", "", "db_retail_unity");
-if ($mysqli->connect_error) {
-    die("Koneksi MySQL gagal: " . $mysqli->connect_error);
-}
+//$mysqli = new mysqli("localhost", "root", "", "db_retail_unity");
+//if ($mysqli->connect_error) {
+//    die("Koneksi MySQL gagal: " . $mysqli->connect_error);
+//}
 
 // === Koneksi ODBC ke SQL Server ===
 /*$dsn = "dbmaserp";
